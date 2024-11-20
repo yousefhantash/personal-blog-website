@@ -1,0 +1,7 @@
+/* importing style */
+
+@import url("structure.css");
+@import url("elements.css");
+@import url("homeStyle.css");
+@import url("postStyle.css");
+@import url("media.css");

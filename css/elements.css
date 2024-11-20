@@ -1,0 +1,37 @@
+/* elements style  */
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 20px;
+}
+
+a {
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #026d85;
+    border-radius: 10px;
+    border: 1px solid #026d85;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn:hover {
+    color: #026d85;
+    background-color: #fff;
+}

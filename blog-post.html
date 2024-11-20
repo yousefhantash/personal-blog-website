@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!--------- meta tags --------->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recommended Posts</title>
+    <!--------- external css style --------->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--------- google fonts --------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------- fontawesome icons --------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!--------- header section --------->
+      <header>
+        <nav class="container">
+          <h1 class="logo">Yousef Hantash</h1>
+          <i id="menu-bar" class="fa-solid fa-bars"></i>
+          <div class="nav-bar-links">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <!--------- post section --------->
+      <div class="post-container">
+        <div class="main-content">
+          <div class="author-info">
+            <img
+              src="assets/images/Dahl_Ryan.png"
+              alt="Author's Name"
+              class="author-image"
+            />
+            <div class="bio">
+              <p class="author-name">Ryan Dahl</p>
+              <p>American software engineer</p>
+            </div>
+          </div>
+          <!--------- article section --------->
+          <article>
+            <h1>Node js</h1>
+            <p>
+              <em>May 27, 2009 by Ryan</em>
+            </p>
+            <p>
+              Node.js is a cross-platform, open-source JavaScript runtime
+              environment that can run on Windows, Linux, Unix, macOS, and more.
+              Node.js runs on the V8 JavaScript engine, and executes JavaScript
+              code outside a web browser.
+            </p>
+            <p>
+              Node.js lets developers use JavaScript to write command line tools
+              and for server-side scripting. The ability to run JavaScript code
+              on the server is often used to generate dynamic web page content
+              before the page is sent to the user's web browser. Consequently,
+              Node.js represents a "JavaScript everywhere" paradigm, unifying
+              web-application development around a single programming language,
+              as opposed to using different languages for the server- versus
+              client-side programming.
+            </p>
+            <figure class="centered-image">
+              <img src="assets/images/node.png" alt="node" />
+              <figcaption>Node.js framework.</figcaption>
+            </figure>
+            <blockquote>
+              <p>
+                The Node.js logo features a green hexagon with overlapping bands
+                to represent the cross-platform nature of the runtime. The
+                Rocket Turtle was chosen as the official
+                <strong>Node js</strong> mascot in February 2024 following a
+                design contest Curabitur blandit tempus porttitor.
+              </p>
+            </blockquote>
+            <p>
+              Node.js enables development of fast web servers in JavaScript
+              using event-driven programming. Developers can create scalable
+              servers without using threading by using a simplified model that
+              uses callbacks to signal the completion of a task. Node.js
+              connects the ease of a scripting language (JavaScript) with the
+              power of Unix network programming.
+            </p>
+            <h2>Industry support</h2>
+            <p>
+              There are thousands of open-source libraries for Node.js, most of
+              which are hosted on the npm website. Multiple developer
+              conferences and events are held that support the Node.js
+              community, including NodeConf, Node Interactive and Node Summit,
+              as well as a number of regional events.
+            </p>
+            <ol>
+              <li>Express js</li>
+              <li>MongooDB</li>
+              <li>Node js</li>
+              <li>Java Script</li>
+            </ol>
+            <h3>Internals</h3>
+            <p>
+              Node.js uses libuv under the hood to handle asynchronous events.
+              Libuv is an abstraction layer for network and file system
+              functionality on both Windows and POSIX-based systems such as
+              Linux, macOS, OSS on NonStop, and Unix. Node.js relies on nghttp2
+              for HTTP support. As of version 20, Node.js uses the ada library
+              which provides up-to-date WHATWG URL compliance. As of version
+              19.5, Node.js uses the simdutf library for fast Unicode validation
+              and transcoding. As of version 21.3, Node.js uses the simdjson
+              library for fast JSON parsing.
+            </p>
+            <pre><code>var http = require('http');
+http.createServer(function (req, res) {
+res.writeHead(200, {'Content-Type': 'text/plain'});
+res.end('Hello World!');
+}).listen(8080);</code></pre>
+          </article>
+        </div>
+        <!--------- sidebar section --------->
+        <aside class="sidebar">
+          <section class="about-side">
+            <h4>About</h4>
+            <p>
+              Ryan Dahl (born 1981) is an American software engineer who is best
+              known for creating the Node.js JavaScript runtime as well as the
+              Deno JavaScript/TypeScript runtime.
+            </p>
+          </section>
+          <section class="archives-side">
+            <h4>Archives</h4>
+            <ul>
+              <li><a href="#">March 2009</a></li>
+              <li><a href="#">February 2009</a></li>
+              <li><a href="#">January 2009</a></li>
+            </ul>
+          </section>
+          <section class="social-side">
+            <h4>Social sharing</h4>
+            <ul>
+              <li>
+                <a href="https://facebook.com"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <a href="https://facebook.com"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            &copy; 2024 Yousef Hantash | All Rights Reserved
+          </div>
+        </div>
+      </footer>
+      <!--------- External JavaScript --------->
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>
